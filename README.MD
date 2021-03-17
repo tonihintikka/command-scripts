@@ -8,3 +8,5 @@ Jos Scripti exitoi, jollain muulla kuin nollalla se failaa.
 
 You can test where you php is command
 ´´which php
+
+##

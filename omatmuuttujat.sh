@@ -3,7 +3,12 @@
 set -eu # This is very important line because if we don't set -e here bash doesn't stop commmand's to error.
 set -o pipefail
 
-muuttuja=hei # ei spaceja
+muuttuja=hei # ei spaceja yksi tapa
 
+export ymparistomuuttuja=hei
 echo "$muuttuja"
+./ali.sh
 echo "hello world"
+
+muuttuja2=$(ls -l)
+echo "$muuttuja2"
